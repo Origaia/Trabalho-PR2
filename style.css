@@ -1,0 +1,97 @@
+:root{
+    --corLetras: #DADCE7;
+    --corNumero2: #B5B9CF;
+    --corNumero3: #9096B6;
+    --corNumero4: #777EA6;
+    --corNumero5: #616894;
+    --corNumero6: #51567B;
+    --corNumero7: #404463;
+    --corNumero8: #282B3E;
+    --corNumero9: #181A25;
+    --corNumero10: #08090C;
+}
+@font-face {
+    font-family: "Retro-Font";
+    src: url("./Fonte/Retro\ Gaming.ttf");
+}
+body{
+    background-color: var(--corNumero8);
+    background-attachment: fixed;
+    background-image: url('./IMG/Walp1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: var(--corLetras);
+    border: 5px var(--corNumero3) solid;
+    border-radius: 11px;
+    width: 100%;
+    height: 100%;
+}
+p{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+    text-indent: 2.5%;
+}
+
+a{
+    color: var(--corNumero2);
+    text-align: left;
+}
+/*ID*/
+#titulo{
+    text-align: center;
+}
+#intro-pag{
+
+}
+#subtitulo{
+    text-align: left;
+    margin-left: 15px;
+}
+#acd{
+    border: 1px var(--corNumero2) solid;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#div-corpo{
+    margin-left: 1%;
+    margin: 1% ;
+    text-align: center;
+}
+
+/*Classes*/
+
+.conteudo-padrao{
+    border: 1px var(--corNumero5) solid;
+    border-radius: 17px;
+    width: auto;
+    height: 30%;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0.1%;
+}
+.titulo-conteudo{
+    font-family: 'Retro-Font', cursive;
+    text-align: left;
+    text-indent: 5%;
+}
+.div-IMG{
+    text-align: center;
+    width: 45%;
+    height: 45%;
+    margin: auto;
+}
+.IMG{
+    border: 1px var(--corNumero2) solid;
+    border-radius: 7%;
+    width: 100%;
+    height: 100%%;
+}
+.gif{
+    width: 5%;
+    height: 5%;
+    margin: auto;
+}
